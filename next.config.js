@@ -58,6 +58,8 @@ module.exports = {
 */
 const path = require('path');
 const glob = require('glob');
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
 
 module.exports = {
   webpack: (config, { dev }) => {
