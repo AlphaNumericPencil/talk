@@ -1,8 +1,9 @@
-module.exports =
+module.exports 
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = require('../../../ssr-module-cache.js');
-/******/
+/******/var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/

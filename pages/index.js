@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import Banner from '../components/Banner';
-import Contact from '../components/Contact';
 
 const Index = () => (
   <Layout>
